@@ -1,0 +1,76 @@
+.img-sport {
+    filter: drop-shadow(10px 10px 10px black);
+    max-width: 80%;
+    max-height: 60%;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.favsport {
+    display: flex;
+}
+.favsp {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.home-sci{
+    position: absolute;
+    width: 170px;
+}
+.home-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.home-sci a:hover{
+    color: #081b29;
+}
+.home-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before{
+    width: 100%;
+}
+h1{
+    padding-left: 15px;
+}
+.map{
+    transform: translate(180%, -130%);
+    position: absolute;
+}
+ul{
+    list-style: none;
+    transform: translate(500%, -550%);
+    position: absolute;
+}
+span.important{
+    font-weight: 600;
+}

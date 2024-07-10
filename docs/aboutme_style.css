@@ -1,0 +1,63 @@
+.about-me{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-content{
+    max-width: 600px;
+    justify-content: space-between;
+}
+
+.about-me-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-me-content p{
+    font-size: 20px;
+    margin: 20px 0 20px;
+}
+
+.about-me-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.img-abme {
+    filter: drop-shadow(10px 10px 10px black);
+    max-width: 80%;
+    max-height: 60%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-110%, -40%);
+}
+#carouselExampleAutoplaying{
+    max-width: 1000px;
+    max-height: auto;
+    top: 250;
+    left: 30;
+    position: absolute;
+}
+.ytvideo1{
+    max-width: 1000px;
+    max-height: auto;
+    top: 250;
+    left: 1150;
+    position: absolute;
+}
+.ytvideo2{
+    max-width: 1000px;
+    max-height: auto;
+    top: 570;
+    left: 1150;
+    position: absolute;
+}
