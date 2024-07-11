@@ -66,7 +66,7 @@ body {
 }
 .img::before{
     content:'';
-    background-image: url('hui.png');
+    background-image: url('img.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
