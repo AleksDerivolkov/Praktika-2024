@@ -31,7 +31,6 @@
 }
 
 .img-abme {
-    filter: drop-shadow(10px 10px 10px black);
     max-width: 80%;
     max-height: 60%;
     position: absolute;
